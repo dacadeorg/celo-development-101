@@ -16,9 +16,9 @@ In this section, you will learn how to use the basic functionality of Remix.
 3. Click on Remix Basics.
 4. Start the tutorial and finish all lessons of Remix Basics.
 
-<div style="height: 0; padding-bottom: calc(62.50%); position:relative; width: 100%;"><iframe allow="autoplay; gyroscope;" allowfullscreen height="100%" referrerpolicy="strict-origin" src="https://www.kapwing.com/e/609a50579d6af400e6a1ca3a" style="border:0; height:100%; left:0; overflow:hidden; position:absolute; top:0; width:100%" title="Embedded content made on Kapwing" width="100%"></iframe></div>
+![](https://dacade.org/gifs/celo/celo_2_1_remix_basics.gif)
 
-## 2.2 Solidity File Setup (6 min)
+## 2.2 Solidity File Setup (5 min)
 
 You will start by setting up your Solidity file.
 
