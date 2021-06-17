@@ -16,7 +16,7 @@ In this section, you will learn how to use the basic functionality of Remix.
 3. Click on Remix Basics.
 4. Start the tutorial and finish all lessons of Remix Basics.
 
-![](https://dacade.org/gifs/celo/celo_2_1_remix_basics.gif)
+![](https://cdn-dacade.netlify.app/celo-gifs/celo_2_1_remix_basics.gif)
 
 ## 2.2 Solidity File Setup (5 min)
 
@@ -55,7 +55,7 @@ Then, name your variable `product` and assign it the string `"Burger"`.
 
 Now compile the contract, deploy it, and get your variable by calling the automatic getter function.
 
-![](https://dacade.org/gifs/celo/celo_2_2_solidity_file_setup.gif)
+![](https://cdn-dacade.netlify.app/celo-gifs/celo_2_2_solidity_file_setup.gif)
 Code for this part of the tutorial.
 
 [Link to code](https://github.com/dacadeorg/celo-development-101/tree/main/code/celo101-code-chapter_2/2-2-solidity-file-setup/marketplace.sol)
@@ -110,7 +110,7 @@ You need to specify the return type. Because the return type is a string, you al
 In the next line, you just return your state variable product.
 
 Your contract should now behave like this:
-![](https://dacade.org/gifs/celo/celo_2_3_read_and_write_functions.gif)
+![](https://cdn-dacade.netlify.app/celo-gifs/celo_2_3_read_and_write_functions.gif)
 
 Code for this part of the tutorial.
 [Link to code](https://github.com/dacadeorg/celo-development-101/tree/main/code/celo101-code-chapter_2/2-3-read-and-write-functions/marketplace.sol)
@@ -154,7 +154,7 @@ function readProduct(uint _index) public view returns (string memory) {
 Now, you need a parameter because you have multiple products, and you need to specify which one you want to return. The type of your new parameter is `uint` and, you call it `_index`. In the next line, return the value for your key `_index` from the products mapping.
 
 If you test it, it should look like this:
-![](https://dacade.org/gifs/celo/celo_2_4_save_multiple_products_with_mappings.gif)
+![](https://cdn-dacade.netlify.app/celo-gifs/celo_2_4_save_multiple_products_with_mappings.gif)
 
 [Link to code](https://github.com/dacadeorg/celo-development-101/tree/main/code/celo101-code-chapter_2/2-4-save-multiple-products-with-mappings/marketplace.sol)
 
@@ -258,7 +258,7 @@ Your function needs to return the `address` that is `payable`, four `string`s, t
 To return the saved values, specify the key of the struct in the products mapping and the variable name.
 
 This is how it should behave:
-![](https://dacade.org/gifs/celo/celo_2_5_save_multiple_variables_with_structs.gif)
+![](https://cdn-dacade.netlify.app/celo-gifs/celo_2_5_save_multiple_variables_with_structs.gif)
 
 Code for this part of the tutorial:
 [Link to code](https://github.com/dacadeorg/celo-development-101/tree/main/code/celo101-code-chapter_2/2-5-save-multiple-variables-with-structs/marketplace.sol)
@@ -311,7 +311,7 @@ When the first product is created, `productsLength` is 0, so the index where thi
 Finally, create a public function to return the number of products stored, which you will iterate over in the frontend.
 
 It should work like this:
-![](https://dacade.org/gifs/celo/celo_2_6_optimising_the_contract.gif)
+![](https://cdn-dacade.netlify.app/celo-gifs/celo_2_6_optimising_the_contract.gif)
 
 Code for this part of the tutorial.
 [Link to code](https://github.com/dacadeorg/celo-development-101/tree/main/code/celo101-code-chapter_2/2-6-optimising-the-contract/marketplace.sol)
@@ -406,15 +406,15 @@ Code for this part of the tutorial.
 In this brief final section of this tutorial, you will create a Celo wallet and deploy your contract to the Celo testnet alfajores.
 
 1. Install the [CeloExtensionWallet](https://chrome.google.com/webstore/detail/celoextensionwallet/kkilomkmpmkbdnfelcpgckmpcaemjcdh?hl=en) from the Google Chrome Store.
-![](https://dacade.org/gifs/celo/celo_install_celo_extension_wallet.gif)
+![](https://cdn-dacade.netlify.app/celo-gifs/celo_install_celo_extension_wallet.gif)
 2. Create a wallet.
-![](https://dacade.org/gifs/celo/celo_create_wallet.gif)
+![](https://cdn-dacade.netlify.app/celo-gifs/celo_create_wallet.gif)
 
 3. Get Celo token for the alfajores testnet from [https://celo.org/developers/faucet](https://celo.org/developers/faucet)
-![](https://dacade.org/gifs/celo/celo_get_token_from_faucet.gif)
+![](https://cdn-dacade.netlify.app/celo-gifs/celo_get_token_from_faucet.gif)
 
 4. Install the Celo remix plugin and deploy your contract.
-![](https://dacade.org/gifs/celo/celo_install_remix_plugin_and_deploy_contract.gif)
+![](https://cdn-dacade.netlify.app/celo-gifs/celo_install_remix_plugin_and_deploy_contract.gif)
   
 Great! You deployed your first contract on the Celo blockchain. Congratulations 🎉.
 
