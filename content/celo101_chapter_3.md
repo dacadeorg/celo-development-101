@@ -953,7 +953,7 @@ That’s it! You've created your first DApp on the Celo Blockchain. Congratulati
 To test this DApp properly, you should create two accounts. This will allow you to see how the first account earns cUSD when you buy a product with the second account.
 
 Check out this gif showing you how your app should behave.
-![](https://cdn-dacade.netlify.app/celo-gifs/celo/celo_3_6_pay_function.gif)
+![](https://cdn-dacade.netlify.app/celo-gifs/celo_3_6_pay_function.gif)
 
 Code for this part of the tutorial.
 [Link to code](https://github.com/dacadeorg/celo-development-101/tree/main/code/celo101-code-chapter_3/3-6-pay-function/index.js)
