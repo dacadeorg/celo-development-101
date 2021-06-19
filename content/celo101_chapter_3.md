@@ -276,7 +276,7 @@ Finally, add the bootstrap JS library and a library called blockies, that you ar
 Congratulations! That’s it for the first section of this tutorial.
 
 Here is a quick view of how your DApp should look like with only the HTML now.
-![](https://cdn-dacade.netlify.app/celo-gifs/celo/celo_3_2_the_html_of_your_dapp.gif)
+![](https://cdn-dacade.netlify.app/content/gifs/celo/celo_3_2_the_html_of_your_dapp.gif)
 
 HTML Code
 [Link to code](https://github.com/dacadeorg/celo-development-101/tree/main/code/celo101-code-chapter_3/3-2-the-html-of-your-project/index.html)
@@ -507,7 +507,7 @@ document.querySelector("#marketplace").addEventListener("click", (e) => {
 If the user clicks on the product's buy button, save the index of the product they clicked on and then increase the number of times the item has been sold. Then send them a notification and render the products again, so that it displays the updated amount of products sold.
 
 That’s it for this part, this is how your app should now behave:
-![](https://cdn-dacade.netlify.app/celo-gifs/celo_3_3_the_js_of_your_dapp.gif)
+![](https://cdn-dacade.netlify.app/content/gifs/celo_3_3_the_js_of_your_dapp.gif)
 
 Javascript Code
 [Link to code](https://github.com/dacadeorg/celo-development-101/tree/main/code/celo101-code-chapter_3/3-3-the-js-of-your-dapp/index.js)
@@ -644,7 +644,7 @@ We assume that you have installed the CeloExtensionWallet. If not, you need to:
 5. Open your DApp.
 
 Here is a GIF showing how your app should now behave.
-![](https://cdn-dacade.netlify.app/celo-gifs/celo_3_4_read_balance.gif)
+![](https://cdn-dacade.netlify.app/content/gifs/celo_3_4_read_balance.gif)
 
 Code for this section of the tutorial.
 [Link to code](https://github.com/dacadeorg/celo-development-101/tree/main/code/celo101-code-chapter_3/3-4-reading-your-celo-balance/index.js)
@@ -656,7 +656,7 @@ In order to interact with your smart contract that is deployed in bytecode, you 
 
 When you compile your contract in Remix, Remix also creates the ABI in the form of a JSON for your contract. Copy the JSON and save it into the marketplace.abi.json file of the contracts folder in your project.
 
-![](https://cdn-dacade.netlify.app/celo-gifs/celo_3_5_1_read_and_write_to_your_contract.gif)
+![](https://cdn-dacade.netlify.app/content/gifs/celo_3_5_1_read_and_write_to_your_contract.gif)
 
 Now that you have your ABI saved in your project, you need to import it.
 
@@ -680,7 +680,7 @@ const MPContractAddress = "0x178134c92EC973F34dD0dd762284b852B211CFC8"
 Save the address for the marketplace contract in the global variable `MPContractAddress`.
 Displayed is the address of my contract — you should replace it with your own address.
 
-![](https://cdn-dacade.netlify.app/celo-gifs/celo_3_5_2_read_and_write_to_your_contract.gif)
+![](https://cdn-dacade.netlify.app/content/gifs/celo_3_5_2_read_and_write_to_your_contract.gif)
 
 ```javascript
 let kit
@@ -853,7 +853,7 @@ window.addEventListener('load', async () => {
 
 Ok, that’s it for this section! You now should be able to save new products via your frontend into your contract on the Celo Blockchain.
 
-![](https://cdn-dacade.netlify.app/celo-gifs/celo_3_5_3_read_and_write_to_your_contract.gif)
+![](https://cdn-dacade.netlify.app/content/gifs/celo_3_5_3_read_and_write_to_your_contract.gif)
 
 Javascript Code
 [Link to code](https://github.com/dacadeorg/celo-development-101/tree/main/code/celo101-code-chapter_3/3-5-read-and-write-to-your-contract/index.js)
@@ -953,7 +953,7 @@ That’s it! You've created your first DApp on the Celo Blockchain. Congratulati
 To test this DApp properly, you should create two accounts. This will allow you to see how the first account earns cUSD when you buy a product with the second account.
 
 Check out this gif showing you how your app should behave.
-![](https://cdn-dacade.netlify.app/celo-gifs/celo_3_6_pay_function.gif)
+![](https://cdn-dacade.netlify.app/content/gifs/celo_3_6_pay_function.gif)
 
 Code for this part of the tutorial.
 [Link to code](https://github.com/dacadeorg/celo-development-101/tree/main/code/celo101-code-chapter_3/3-6-pay-function/index.js)
