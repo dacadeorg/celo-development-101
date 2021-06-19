@@ -509,11 +509,8 @@ If the user clicks on the product's buy button, save the index of the product th
 That’s it for this part, this is how your app should now behave:
 ![](https://cdn-dacade.netlify.app/content/gifs/celo_3_3_the_js_of_your_dapp.gif)
 
-Javascript Code
-[Link to code](https://github.com/dacadeorg/celo-development-101/tree/main/code/celo101-code-chapter_3/3-3-the-js-of-your-dapp/index.js)
-
-Javascript Code
-[Link to code](https://github.com/dacadeorg/celo-development-101/tree/main/code/celo101-code-chapter_3/3-3-the-js-of-your-dapp/index.js)
+Javascript Code:
+[Link to code](https://github.com/dacadeorg/celo-development-101/tree/main/code/celo101-code-chapter_3/3-3-the-js-of-your-dapp/main.js)
 
 ## 3.4 Reading your Celo Balance (14min)
 In this section of the tutorial, you are going to use the contractKit library to interact with the Celo Blockchain. ContractKit includes web3.js, a very popular collection of libraries also used for ethereum, that allows you to get access to a web3 object and interact with node's JSON RPC API ([Learn more about contractKit](https://docs.celo.org/developer-guide/contractkit)).
@@ -647,7 +644,7 @@ Here is a GIF showing how your app should now behave.
 ![](https://cdn-dacade.netlify.app/content/gifs/celo_3_4_read_balance.gif)
 
 Code for this section of the tutorial.
-[Link to code](https://github.com/dacadeorg/celo-development-101/tree/main/code/celo101-code-chapter_3/3-4-reading-your-celo-balance/index.js)
+[Link to code](https://github.com/dacadeorg/celo-development-101/tree/main/code/celo101-code-chapter_3/3-4-reading-your-celo-balance/main.js)
 
 ## 3.5 Read and write to your contract (12 min)
 In this section of the tutorial, you will connect to your smart contract, as well as read and write products to it.
@@ -856,7 +853,7 @@ Ok, that’s it for this section! You now should be able to save new products vi
 ![](https://cdn-dacade.netlify.app/content/gifs/celo_3_5_3_read_and_write_to_your_contract.gif)
 
 Javascript Code
-[Link to code](https://github.com/dacadeorg/celo-development-101/tree/main/code/celo101-code-chapter_3/3-5-read-and-write-to-your-contract/index.js)
+[Link to code](https://github.com/dacadeorg/celo-development-101/tree/main/code/celo101-code-chapter_3/3-5-read-and-write-to-your-contract/main.js)
 
 ## 3.6 Pay function (8 min)
 In this section of the tutorial, you will learn how to create the payment functionality. 
@@ -956,7 +953,7 @@ Check out this gif showing you how your app should behave.
 ![](https://cdn-dacade.netlify.app/content/gifs/celo_3_6_pay_function.gif)
 
 Code for this part of the tutorial.
-[Link to code](https://github.com/dacadeorg/celo-development-101/tree/main/code/celo101-code-chapter_3/3-6-pay-function/index.js)
+[Link to code](https://github.com/dacadeorg/celo-development-101/tree/main/code/celo101-code-chapter_3/3-6-pay-function/main.js)
 
 ## 3.7 Hosting your DApp on GitHub pages (6 min)
 In this final section of the tutorial, we will show you how you can host your project on GitHub pages so other people can interact with it.
