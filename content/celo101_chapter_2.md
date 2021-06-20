@@ -56,8 +56,7 @@ Then, name your variable `product` and assign it the string `"Burger"`.
 Now compile the contract, deploy it, and get your variable by calling the automatic getter function.
 ![](https://cdn-dacade.netlify.app/content/gifs/celo_2_2_solidity_file_setup.gif)
 
-Code for this section:
-[Link to code](https://github.com/dacadeorg/celo-development-101/tree/main/code/celo101-code-chapter_2/2-2-solidity-file-setup/marketplace.sol)
+[Code for this section](https://github.com/dacadeorg/celo-development-101/tree/main/code/celo101-code-chapter_2/2-2-solidity-file-setup/marketplace.sol)
 
 ## 2.3 Read and Write Functions (6 min)
 
@@ -155,8 +154,7 @@ Now, you need a parameter because you have multiple products, and you need to sp
 If you test it, it should look like this:
 ![](https://cdn-dacade.netlify.app/content/gifs/celo_2_4_save_multiple_products_with_mappings.gif)
 
-Code for this section:
-[Link to code](https://github.com/dacadeorg/celo-development-101/tree/main/code/celo101-code-chapter_2/2-4-save-multiple-products-with-mappings/marketplace.sol)
+[Code for this section](https://github.com/dacadeorg/celo-development-101/tree/main/code/celo101-code-chapter_2/2-4-save-multiple-products-with-mappings/marketplace.sol)
 
 ## 2.5 Save multiple Variables with Structs (8 min)
 
@@ -259,8 +257,7 @@ To return the saved values, specify the key of the struct in the products mappin
 This is how it should behave:
 ![](https://cdn-dacade.netlify.app/content/gifs/celo_2_5_save_multiple_variables_with_structs.gif)
 
-Code for this section:
-[Link to code](https://github.com/dacadeorg/celo-development-101/tree/main/code/celo101-code-chapter_2/2-5-save-multiple-variables-with-structs/marketplace.sol)
+[Code for this section](https://github.com/dacadeorg/celo-development-101/tree/main/code/celo101-code-chapter_2/2-5-save-multiple-variables-with-structs/marketplace.sol)
 
 ## 2.6 Optimising the Contract (4 min)
 In this section of the tutorial, you will optimise your contract. You will create a state variable that keeps track of how many products are stored in your contract. You will need this later when you want to iterate over all products in the frontend. This variable will also help you to create the indexes for your products, so the users don’t have to take care of that themselves.
@@ -312,8 +309,7 @@ Finally, create a public function to return the number of products stored, which
 It should work like this:
 ![](https://cdn-dacade.netlify.app/content/gifs/celo_2_6_optimising_the_contract.gif)
 
-Code for this section:
-[Link to code](https://github.com/dacadeorg/celo-development-101/tree/main/code/celo101-code-chapter_2/2-6-optimising-the-contract/marketplace.sol)
+[Code for this section](https://github.com/dacadeorg/celo-development-101/tree/main/code/celo101-code-chapter_2/2-6-optimising-the-contract/marketplace.sol)
 
 ## 2.7 Transactions and ERC20 Interface (8 min)
 
@@ -396,9 +392,7 @@ You're done with your first contract!
 
 In order to test this properly, you need to install a Celo wallet and deploy your contract to the Celo testnet.
 
-Code for this section:
-[Link to code](https://github.com/dacadeorg/celo-development-101/tree/main/code/celo101-code-chapter_2/2-7-transactions-and-erc20-interface/marketplace.sol)
-
+[Code for this section](https://github.com/dacadeorg/celo-development-101/tree/main/code/celo101-code-chapter_2/2-7-transactions-and-erc20-interface/marketplace.sol)
 
 ## 2.8 Deploying your Contract to the Celo Blockchain (5 min)
 
