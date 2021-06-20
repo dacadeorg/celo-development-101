@@ -1,5 +1,5 @@
 Here is a preview of the DApp that you are going to build:
-[Link to Marketplace DApp](https://moritzfelipe.github.io/celo-marketplace-dapp/)
+[Link to Marketplace DApp](https://dacadeorg.github.io/celo-marketplace-dapp/)
 
 ## 3.1 Initializing your project (3 min)
 First, you are going to initialize your project from our boilerplate repo, where you will already have the build process and necessary libraries available. 
