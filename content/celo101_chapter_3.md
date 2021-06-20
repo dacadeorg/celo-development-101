@@ -965,7 +965,9 @@ Now, you should have an HTML and JS file inside the docs folder of your project.
 2. Once inside your repository, click on settings and scroll down to a section called GitHub Pages.
 3. Select the master branch and the docs folder as the source for your GitHub pages.
 
-It might a few some minutes until you are able to visit your DApp under the URL that is displayed in the GitHub Pages section.
+It might take a few some minutes until you are able to visit your DApp under the URL that is displayed in the GitHub Pages section.
+
+If you haven't already, create a readme file for your project and include the link to your DApp in it.
 
 That’s it! Congratulations! You are done with the tutorial and have built your first DApp! 🎉
 Now apply your new knowledge and take part in this course's challenge!.
