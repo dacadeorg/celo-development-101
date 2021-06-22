@@ -8,7 +8,7 @@ You should have installed node.js 10 or higher.
 1. Open your command-line interface.
 2. Clone our boilerplate repository.
 ```bash
-git clone https://github.com/moritzfelipe/celo-boilerplate-web-dapp
+git clone https://github.com/dacadeorg/celo-boilerplate-web-dapp
 ```
 
 3. Navigate to the new repository.
