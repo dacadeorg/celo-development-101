@@ -967,7 +967,8 @@ Now, you should have an HTML and JS file inside the docs folder of your project.
 
 It might take a few some minutes until you are able to visit your DApp under the URL that is displayed in the GitHub Pages section.
 
-If you haven't already, create a readme file for your project and include the link to your DApp in it.
+If you haven't already, create a readme file for your project that explains your dapp and includes a link to your Dapp. You can use this readme for inspiration 
+[Marketplace Readme](https://github.com/dacadeorg/celo-marketplace-dapp#readme).
 
 That’s it! Congratulations! You are done with the tutorial and have built your first DApp! 🎉
 Now apply your new knowledge and take part in this course's challenge!.
