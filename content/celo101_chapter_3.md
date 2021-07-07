@@ -276,7 +276,7 @@ Finally, add the bootstrap JS library and a library called blockies, that you ar
 Congratulations! That’s it for the first section of this tutorial.
 
 Here is a quick view of how your DApp should look like with only the HTML now.
-![](https://cdn-dacade.netlify.app/content/gifs/celo/celo_3_2_the_html_of_your_dapp.gif)
+![](https://cdn-dacade.netlify.app/content/gifs/celo_3_2_the_html_of_your_dapp.gif)
 
 [Code for this section](https://github.com/dacadeorg/celo-development-101/tree/main/code/celo101-code-chapter_3/3-2-the-html-of-your-project/index.html)
 
