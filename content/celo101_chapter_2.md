@@ -16,7 +16,7 @@ In this section, you will learn how to use the basic functionality of Remix.
 3. Click on Remix Basics.
 4. Start the tutorial and finish all lessons of Remix Basics.
 
-![](https://cdn-dacade.netlify.app/content/gifs/celo_2_1_remix_basics.gif)
+![](https://github.com/dacadeorg/celo-development-101/blob/main/content/gifs/celo_2_1_remix_basics.gif)
 
 ## 2.2 Solidity File Setup (5 min)
 
@@ -54,7 +54,7 @@ You need to specify the type of the variable; in this case, it's a string ([Lear
 Then, name your variable `product` and assign it the string `"Burger"`.
 
 Now compile the contract, deploy it, and get your variable by calling the automatic getter function.
-![](https://cdn-dacade.netlify.app/content/gifs/celo_2_2_solidity_file_setup.gif)
+![](https://github.com/dacadeorg/celo-development-101/blob/main/content/gifs/celo_2_2_solidity_file_setup.gif)
 
 [Code for this section](https://github.com/dacadeorg/celo-development-101/tree/main/code/celo101-code-chapter_2/2-2-solidity-file-setup/marketplace.sol)
 
@@ -108,7 +108,7 @@ You need to specify the return type. Because the return type is a string, you al
 In the next line, you just return your state variable product.
 
 Your contract should now behave like this:
-![](https://cdn-dacade.netlify.app/content/gifs/celo_2_3_read_and_write_functions.gif)
+![](https://github.com/dacadeorg/celo-development-101/blob/main/content/gifs/celo_2_3_read_and_write_functions.gif)
 
 Code for this section:
 [Link to code](https://github.com/dacadeorg/celo-development-101/tree/main/code/celo101-code-chapter_2/2-3-read-and-write-functions/marketplace.sol)
@@ -152,7 +152,7 @@ function readProduct(uint _index) public view returns (string memory) {
 Now, you need a parameter because you have multiple products, and you need to specify which one you want to return. The type of your new parameter is `uint` and, you call it `_index`. In the next line, return the value for your key `_index` from the products mapping.
 
 If you test it, it should look like this:
-![](https://cdn-dacade.netlify.app/content/gifs/celo_2_4_save_multiple_products_with_mappings.gif)
+![](https://github.com/dacadeorg/celo-development-101/blob/main/content/gifs/celo_2_4_save_multiple_products_with_mappings.gif)
 
 [Code for this section](https://github.com/dacadeorg/celo-development-101/tree/main/code/celo101-code-chapter_2/2-4-save-multiple-products-with-mappings/marketplace.sol)
 
@@ -255,7 +255,7 @@ Your function needs to return the `address` that is `payable`, four `string`s, t
 To return the saved values, specify the key of the struct in the products mapping and the variable name.
 
 This is how it should behave:
-![](https://cdn-dacade.netlify.app/content/gifs/celo_2_5_save_multiple_variables_with_structs.gif)
+![](https://github.com/dacadeorg/celo-development-101/blob/main/content/gifs/celo_2_5_save_multiple_variables_with_structs.gif)
 
 [Code for this section](https://github.com/dacadeorg/celo-development-101/tree/main/code/celo101-code-chapter_2/2-5-save-multiple-variables-with-structs/marketplace.sol)
 
@@ -307,7 +307,7 @@ When the first product is created, `productsLength` is 0, so the index where thi
 Finally, create a public function to return the number of products stored, which you will iterate over in the frontend.
 
 It should work like this:
-![](https://cdn-dacade.netlify.app/content/gifs/celo_2_6_optimising_the_contract.gif)
+![](https://github.com/dacadeorg/celo-development-101/blob/main/content/gifs/celo_2_6_optimising_the_contract.gif)
 
 [Code for this section](https://github.com/dacadeorg/celo-development-101/tree/main/code/celo101-code-chapter_2/2-6-optimising-the-contract/marketplace.sol)
 
