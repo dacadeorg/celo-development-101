@@ -399,15 +399,15 @@ In order to test this properly, you need to install a Celo wallet and deploy you
 In this brief final section of this tutorial, you will create a Celo wallet and deploy your contract to the Celo testnet alfajores.
 
 1. Install the [CeloExtensionWallet](https://chrome.google.com/webstore/detail/celoextensionwallet/kkilomkmpmkbdnfelcpgckmpcaemjcdh?hl=en) from the Google Chrome Store.
-![](https://cdn-dacade.netlify.app/content/gifs/celo_install_celo_extension_wallet.gif)
+![](https://raw.githubusercontent.com/dacadeorg/celo-development-101/main/content/gifs/celo_install_celo_extension_wallet.gif)
 2. Create a wallet.
-![](https://cdn-dacade.netlify.app/content/gifs/celo_create_wallet.gif)
+![](https://raw.githubusercontent.com/dacadeorg/celo-development-101/main/content/gifs/celo_create_wallet.gif)
 
 3. Get Celo token for the alfajores testnet from [https://celo.org/developers/faucet](https://celo.org/developers/faucet)
-![](https://cdn-dacade.netlify.app/content/gifs/celo_get_token_from_faucet.gif)
+![](https://raw.githubusercontent.com/dacadeorg/celo-development-101/main/content/gifs/celo_get_token_from_faucet.gif)
 
 4. Install the Celo remix plugin and deploy your contract.
-![](https://cdn-dacade.netlify.app/content/gifs/celo_install_remix_plugin_and_deploy_contract.gif)
+![](https://raw.githubusercontent.com/dacadeorg/celo-development-101/main/content/gifs/celo_install_remix_plugin_and_deploy_contract.gif)
   
 Great! You deployed your first contract on the Celo blockchain. Congratulations 🎉.
 
