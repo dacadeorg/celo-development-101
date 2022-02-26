@@ -309,3 +309,4 @@ Move to ```document.querySelector("#marketplace")``` add event delete, if user c
 
 Finally, you should display all notifications. If there is no error, call your getProducts function again to show the updated products in your DApp, and yourgetBalance function to show the updated balance after the user bought the product.
 
+![DEMO](../code/celo101-code-chapter_4/4-3-implement-to-frontend/demo.png)
