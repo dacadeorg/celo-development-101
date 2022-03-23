@@ -24,7 +24,7 @@ contract Marketplace {
         string memory _description, 
         string memory _location, 
         uint _price
-    ) public {
+    ) public external {
         uint _sold = 0;
         products[productsLength] = Product(
             payable(msg.sender),
