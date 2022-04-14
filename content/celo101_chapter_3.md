@@ -486,7 +486,7 @@ When a user clicks on the `newProductBtn` inside the modal, you will receive all
 
 For the first value, hard code the address of the owner. Randomly generating an address for this example is beyond the scope of this example.
 
-Then you can receive the values from the input fields for name, image, description, location, price and price. 
+Then you can receive the values from the input fields for name, image, description, location, and price. 
 
 Set `sold` to 0 because the product is brand new and set the index to the length of your product array. You start with 0 products so your first product will have the index 0. Perfect!
 
