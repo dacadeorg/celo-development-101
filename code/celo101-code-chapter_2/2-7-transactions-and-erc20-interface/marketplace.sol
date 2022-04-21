@@ -29,7 +29,7 @@ contract Marketplace {
         uint sold;
     }
 
-    mapping (uint => Product) internal products;
+    mapping (uint => Product) private products;
 
     function writeProduct(
         string memory _name,
@@ -37,7 +37,7 @@ contract Marketplace {
         string memory _description, 
         string memory _location, 
         uint _price
-    ) public {
+    ) public external {
         uint _sold = 0;
         products[productsLength] = Product(
             payable(msg.sender),
@@ -71,7 +71,7 @@ contract Marketplace {
         );
     }
 
-    function buyProduct(uint _index) public payable  {
+    function buyProduct(uint _index) public external payable  {
         require(
           IERC20Token(cUsdTokenAddress).transferFrom(
             msg.sender,
