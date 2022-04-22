@@ -408,6 +408,8 @@ In this brief final section of this tutorial, you will create a Celo wallet and 
 
 4. Install the Celo remix plugin and deploy your contract.
 ![](https://raw.githubusercontent.com/dacadeorg/celo-development-101/main/content/gifs/celo_install_remix_plugin_and_deploy_contract.gif)
+
+5. Approve your marketplace contract access to some of your (wallet) account Tokens. This step is essential to be able to successfully call the buyProduct function on Remix. The IERC20Token `transferFrom` funtion can only be called inside the marktetplace contract if the account that owns the token has approved. ![](./gifs/celo_approve_cusdtokens_for_marketplace_contract.gif)
   
 Great! You deployed your first contract on the Celo blockchain. Congratulations 🎉.
 
