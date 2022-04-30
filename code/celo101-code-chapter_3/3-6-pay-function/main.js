@@ -141,6 +141,10 @@ function notificationOff() {
   document.querySelector(".alert").style.display = "none"
 }
 
+function resetForm() {
+  document.getElementById("product-form").reset()
+}
+
 window.addEventListener("load", async () => {
   notification("⌛ Loading...")
   await connectCeloWallet()
@@ -190,6 +194,7 @@ document.querySelector("#marketplace").addEventListener("click", async (e) => {
       notification(`🎉 You successfully bought "${products[index].name}".`)
       getProducts()
       getBalance()
+      resetForm()
     } catch (error) {
       notification(`⚠️ ${error}.`)
     }
